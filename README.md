@@ -2,9 +2,19 @@
 
 A modern, full-stack personal bookmark manager web application built with React, Node.js, Express, and MongoDB. Save and organize your favorite websites into categories with a beautiful, minimal UI inspired by tools like Notion and Linear.
 
-![Webmark](https://via.placeholder.com/800x400?text=Webmark+-+Personal+Bookmark+Manager)
+## 📸 Screenshots
 
-## Features
+<div align="center">
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+</div>
+
+## ✨ Features
 
 - **User Authentication**: Secure signup/login with JWT authentication
 - **Category Management**: Create, edit, and delete bookmark categories
