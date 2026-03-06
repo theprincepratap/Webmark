@@ -17,8 +17,8 @@ export const ThemeProvider = ({ children }) => {
     if (saved !== null) {
       return JSON.parse(saved);
     }
-    // Then check system preference
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to light mode
+    return false;
   });
 
   // Apply dark mode class to html element
